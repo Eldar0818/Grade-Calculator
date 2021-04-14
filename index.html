@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculater</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="title">
+            <h3>Grade Calculation System</h3>
+        </div>
+
+        <div class="info">
+
+        <div class="myForm">
+            <div class="book1">
+                <label>Computer</label>
+                <input id="book01" type="number" placeholder="Marks">
+            </div>
+            <div class="book2">
+                <label>English</label>
+                <input id="book02" type="number" placeholder="Marks">
+            </div>
+            <div class="book3">
+                <label>Swedish</label>
+                <input id="book03" type="number" placeholder="Marks">
+            </div>
+            <div class="book4">
+                <label>physics</label>
+                <input id="book04" type="number" placeholder="Marks">
+            </div>
+            <div class="book5">
+                <label>Math</label>
+                <input id="book05" type="number" placeholder="Marks">
+            </div>
+            <button onclick="calculate()">Calculate</button>
+        </div>
+
+        <div class="myTable">
+            <table>
+                <tr>
+                    <td class="td01">Total Marks:</td>
+                    <td class="td02">500</td>
+                </tr>
+                <tr>
+                    <td class="td01">Obtained Marks:</td>
+                    <td class="td02" id="obtain"></td>
+                </tr>
+                <tr>
+                    <td class="td01">Percentage:</td>
+                    <td class="td02" id="percentage"></td>
+                </tr>
+                <tr>
+                    <td class="td01">Grade:</td>
+                    <td class="td02" id="grade"></td>
+                </tr>
+                <tr>
+                    <td class="td01">Remarks:</td>
+                    <td class="td02" id="remark"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+       </div>
+
+    </div>
+
+
+    <script src="./app.js"></script>
+</body>
+</html>

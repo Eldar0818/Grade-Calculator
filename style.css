@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(237, 67, 166);
+}
+
+.container{
+    width:  65%;
+    height: 95vh;
+    margin: 0 auto;
+    border: rgb(237, 67, 166);
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .title{
+    width: 100%;
+    height: 80px;
+    margin-bottom: 15px;
+    background: #333;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding: 15px 0 0 0;
+}
+
+.container .info{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    width: 100%;
+}
+.container .info .myForm div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.container .info .myForm div label{
+    font-size: 20px;
+    color: darkgreen;
+}
+.container .info .myForm div input{
+    width: 175px;
+    height: 35px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #333;
+}
+.container .info .myForm button{
+    width: 175px;
+    height: 40px;
+    background-color: crimson;
+    color: bisque;
+    margin: 10px 0 0 0px;
+    font-size: 19px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.container .info .myForm button:hover{
+    background-color: darkorange;
+}
+.container .info .myForm button:focus{
+    outline: none;
+}
+
+.container .info .myTable{
+    margin-top: 70px;
+}
+.container .info .myTable table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table,td{
+    border: 1px solid rgb(19, 18, 18);
+    padding: 8px;
+    height: 45px;
+    font-size: 19px;
+  }
+
+.td01{
+    width: 165px;
+}
+.td02{
+    width: 85px;
+}
+
